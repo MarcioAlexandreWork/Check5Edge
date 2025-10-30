@@ -4,11 +4,8 @@
 # Fábio Apolinário 561828
 # Leonardo Lopes 562171
 
-Monitoramento de umidade, temperatura, luminosidade e distância que utiliza o IP público 9.234.138.146 para publicações MQTT na lamp007
+Monitoramento de umidade, temperatura, luminosidade e distância que utiliza o IP público 9.234.138.146 / 54.163.211.14 para publicações MQTT na lamp007
 
-- Não foi possível fazer a comunicação entre o wokwi e o IoT atualmente por conta da queda do IP, mas se trocar as variáveis de otimização de comunicação, é possível que funcione e as informações sejam publicadas
-
-- Sobre os requests GET no postman foi possível apenas ser realizados ontem nas portas 4041 e 8666 para um health check, já para ver a versão do Orion (1026) não foi possível
 
 - Sobre a criação da IOT Fiware foi possível criar uma VM no VMware utilizando como iso o Ubuntu server em sua ultima versão, mas não foi possível a criação do servidor e nem do IP usando NODE RED
 
@@ -23,8 +20,12 @@ Request GET da porta 8666
 Request GET da porta 4041
 <img width="1597" height="808" alt="image" src="https://github.com/user-attachments/assets/474e2b52-1a8b-49b2-9d3f-7de71eb98fd9" />
 
-Tentativa de conexão ao broker falhando por conta da morte do IP público
-<img width="1598" height="757" alt="image" src="https://github.com/user-attachments/assets/ea584830-2072-4b5b-b4eb-49938de00ae8" />
+Request GET da porta 1026
+<img width="1132" height="685" alt="image" src="https://github.com/user-attachments/assets/5203487c-e09a-434d-9289-e1b8c80fe68d" />
+
+
+Tentativa de conexão ao broker
+<img width="1459" height="655" alt="image" src="https://github.com/user-attachments/assets/71d2a287-ae52-436b-8139-8d8ab1ca5c8d" />
 
 Tentativa da criação da configuração de uma Ubuntu Server via VMware
 <img width="1197" height="283" alt="image" src="https://github.com/user-attachments/assets/c262a464-c24b-47bd-a8b5-628cb1472bd8" />
